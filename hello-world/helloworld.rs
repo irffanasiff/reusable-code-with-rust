@@ -1,4 +1,5 @@
 use std::collections::LinkedList;
+use hello::say_hello;
 
 fn main() {
     let a = 1;
@@ -26,6 +27,8 @@ fn main() {
     for item in vec {
         println!("{}", item);
     }
+
+    say_hello();
 
 
 }
